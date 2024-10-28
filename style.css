@@ -1,0 +1,201 @@
+*{padding: 0%;
+  margin: 0%;
+}
+header{
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  padding: 0px 10px;
+  height: 10vh;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  gap: 15px;
+}
+a{
+  text-decoration: none;  
+  color: black;
+}
+
+.hero{
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)),
+  url("Val.jpg");
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: monospace;
+  
+}
+.hero h1{
+  font-size: 50px;
+}
+.hero p{font-size: 25px;}
+button{border: none;
+  background-color: orangered;
+  padding: 15px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.who h5{ text-align: center;
+  font-size: 150%;
+  font-family: serif;
+}
+.who{background-color: aliceblue;
+  padding: 20px 20px 20px 0px;
+}
+
+
+.we{display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  text-align: center;
+}
+.we article{ font-family: times new roman;
+  font-size: 20px;
+}
+.about{display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px;
+padding: 40px 5px;}
+h3{font-size: 50px;
+  font-family: serif;
+  text-align: center;
+}
+figure{ border: 1px solid black;
+  margin: 10px;
+  width: 250px;
+}
+.figure{display: flex;
+  justify-content: center;
+  gap: 5%;
+  
+}
+
+.figure p{font-family: serif;
+  padding: 0px 15px;
+}
+
+figcaption{
+  font-weight: bold;
+  font-size: 24px;
+  font-family: fantasy;
+  text-align: left;
+  padding: 10px 15px;
+}
+form{ border: 1px solid black;
+  padding: 40px;
+  height: 75vh; width: 30vw;
+  font-size: 25px;
+}
+textarea{border-radius: 10px;
+  border: 1px solid black;
+}
+input{border-radius: 8px;
+  border: 0.5px solid black;
+  height: 30px; 
+}
+.contact{ background-color: aliceblue;
+  padding: 40px;
+}
+.contact h5{text-align: center;
+  font-size: 50px;
+  font-family: serif;
+}
+
+.contactA{ display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  align-content: center;
+}
+
+.address{
+  height: 75vh;width: 40vw;
+  display: flex;
+  flex-direction: column;
+  border: groove 1px black;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  font-size: 150%;
+}
+.address i{font-size: 50px;}
+
+.testimony{
+  display: flex;
+  
+  
+}
+
+.part{background-color: azure;}
+.image{display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+/*.offer{background: linear-gradient(#5DD9A0,#42A96E,#206E30);
+  height: 70vh;
+  margin: 40px 0px 0px;
+  padding: 0px 0px 0px;
+  align-content: center;
+}
+.offer h3{font-size: 30px;}
+
+.health{
+  margin:10px 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.all{border-radius: 5px;
+  align-content: left;
+  background-color: white;
+  padding: 80px 10px 10px;
+}
+.all p{ color: gray;}*/
+footer{
+  background-color: rgb(3,30,19);
+  height: 35vh; width: 100vw;
+  padding: 0px 10px;
+  color: white;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-between;
+  
+}
+.icons a{
+  width: 50px;height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social{
+  padding: 20px 0px;
+  border-bottom: 1px solid white
+  
+}
+.social h3{
+  margin: 10px 0px;
+  font-size: 25px;
+}
+footer p{
+  text-align: center;
+  margin-top: 15px;
+}
